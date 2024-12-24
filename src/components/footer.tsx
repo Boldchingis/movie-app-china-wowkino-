@@ -12,7 +12,7 @@ export function Footer() {
         </div>
         <p className="mb-4">© 2024 Movie Z. All Rights Reserved</p>
       </div>
-      <section className="flex flex-wrap justify-around gap-12 px-8">
+      <section className="flex flex-wrap justify-between gap-12 px-8">
         <div className="flex flex-col items-start text-sm space-y-4">
           <p className="font-semibold">Contact Information</p>
           <div className="flex items-center space-x-2">
@@ -31,7 +31,7 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Social Media */}
+    
         <div className="flex flex-col items-start text-sm space-y-2">
           <p className="font-semibold">Follow us</p>
           <p>Facebook</p>
