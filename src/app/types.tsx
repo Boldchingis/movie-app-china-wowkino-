@@ -11,4 +11,5 @@ export type Movie = {
   poster_path: string;
   release_date: string;
   video: boolean;
+  overview: string;
 };
