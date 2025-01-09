@@ -43,15 +43,18 @@ export default async function Home({ params }: Props) {
         </div>
       </div>
       <div className="relative w-full mt-10">
-        <img
-          className="w-full h-auto"
-          src={`https://image.tmdb.org/t/p/w500${data.backdrop_path}`}
-          alt="Backdrop"
-        >
-          {/* <div>
+        <div>
+          <img
+            className="w-full h-auto"
+            src={`https://image.tmdb.org/t/p/w500${data.backdrop_path}`}
+            alt="Backdrop"
+          ></img>
+          <div className="absolute bottom-4 left-5 z-10 text-white flex gap-2">
             <Play /> Play trailer
-          </div> */}
-        </img>
+          </div>
+          <p></p>
+        </div>
+
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       </div>
 
